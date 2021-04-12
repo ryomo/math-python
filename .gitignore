@@ -1,0 +1,10 @@
+# Python
+/jupyter/
+__pycache__/
+
+# Editor, IDE
+.idea/
+*.iml
+
+# misc
+!.gitkeep

@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  anaconda:
+    build: docker
+    restart: unless-stopped
+    ports:
+      - 80:80
+    volumes:
+      - .:/home/dockeruser/code

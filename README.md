@@ -14,6 +14,7 @@ Dockerfile, docker-compose.ymlともに、なるべくシンプルにしてい�
 
 ```bash
 git clone git@github.com:ryomo/math-python.git
+cd math-python
 docker-compose up
 ```
 

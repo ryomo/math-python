@@ -1,5 +1,5 @@
 # Python
-/jupyter/
+/jupyter/*
 __pycache__/
 
 # Editor, IDE

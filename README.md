@@ -13,7 +13,7 @@ Dockerfile, docker-compose.ymlともに、なるべくシンプルにしてい�
 ## 使い方
 
 ```bash
-git clone git@github.com:ryomo/math-python.git
+git clone https://github.com/ryomo/math-python.git
 cd math-python
 docker-compose up
 ```

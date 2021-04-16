@@ -16,6 +16,6 @@ WORKDIR /home/dockeruser/code
 COPY requirements.txt ./
 RUN pip install --user -r requirements.txt
 
-EXPOSE 80
+EXPOSE 8888
 
-ENTRYPOINT ["jupyter-lab", "--notebook-dir=/home/dockeruser/code/jupyter", "--ip='*'", "--port=80", "--no-browser"]
+ENTRYPOINT ["jupyter-lab", "--notebook-dir=/home/dockeruser/code/jupyter", "--ip='*'", "--port=8888", "--no-browser"]
